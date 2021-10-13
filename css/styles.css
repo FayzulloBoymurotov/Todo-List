@@ -1,0 +1,37 @@
+input {
+    color: blue;
+}
+
+.count__wrapper {
+    position: relative;
+}
+
+.all-count__btn {
+    background-color: #0984e3;
+}
+
+.completed-count__btn {
+    background-color: #0984e3;
+}
+
+.uncompleted-count__btn {
+    background-color: #0984e3;
+}
+
+.all-count__btn:hover {
+    transform: scale(1.4);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: #00d8d6;
+}
+
+.completed-count__btn:hover {
+    transform: scale(1.4);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: #00d8d6;
+}
+
+.uncompleted-count__btn:hover {
+    transform: scale(1.4);
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: #00d8d6;
+}
